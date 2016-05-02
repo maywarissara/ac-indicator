@@ -31,6 +31,28 @@
     background-color: rgba(0,0,0,.6);
 }
 
+.apple{
+    -webkit-animation: infinite-spinning 1s infinite linear;
+    animation: infinite-spinning 1s infinite linear;
+    width: 100px;
+    min-height: 100px;
+    margin: auto;
+    background: url(./apple.png) no-repeat center;
+    background-size: contain;
+    margin-top: 30%;
+    display: block;
+}
+.circle{
+    -webkit-animation: infinite-spinning 1s infinite linear;
+    animation: infinite-spinning 1s infinite linear;
+    width: 100px;
+    min-height: 100px;
+    margin: auto;
+    background: url(./circle.png) no-repeat center;
+    background-size: contain;
+    margin-top: 30%;
+    display: block;
+}
 .spinner{
     -webkit-animation: infinite-spinning 1s infinite linear;
     animation: infinite-spinning 1s infinite linear;
@@ -41,4 +63,4 @@
     background-size: contain;
     margin-top: 30%;
     display: block;
-}
+    }
